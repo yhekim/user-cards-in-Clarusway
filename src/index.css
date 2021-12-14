@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+}
+
+.class {
+  height: 50vh;
+  background-color: pink;
+  padding: 1rem;
+}
+
+.function {
+  height: 50vh;
+  background-color: aqua;
+  padding: 1rem;
+}
+
+.users {
+  background-color: lightgoldenrodyellow;
+  padding: 2vw 10vw;
+  align-self: center;
+}
+
+.users-cards {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.useritem {
+  width: 15%;
+  margin: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.venus {
+  width: 390px;
+  height: 240px;
+  background: #EEEEEE;
+  border-radius: 2%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+  box-shadow: inset 3px 3px 1px white, inset -3px -3px 1px #BDBDBD, 1px 1px 5px #9E9E9E;
+  border: 1px solid grey;
+  color: black;
+  font-family: 'VT323', monospace;
+}
+
+.venus .teen {
+  border: 1px solid grey;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px lightgrey;
+  padding: 4px 0px 4px 13px;
+  background: var(--huff1);
+  border-radius: 3px 3px 0px 0px;
+  box-shadow: inset 1px 1px 1px #FFECB3, inset -1px -1px 1px #E65100;
+}
+
+.venus .real {
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  filter: grayscale(100%);
+  border: 1px solid grey;
+  float: left;
+  margin: 10px 0px 0px 10px;
+  box-shadow: inset -1px -1px 2px #E0E0E0;
+}
+
+.venus .real img {
+  width: 80px;
+  padding-top: 4px;
+  border-radius: 100%;
+}
+
+.venus .young {
+  background: var(--huff2);
+  width: 80px;
+  height: 80px;
+  mix-blend-mode: multiply;
+  border-radius: 100%;
+  margin: 15px 0px 0px -279px;
+}
+
+.venus .shower {
+  width: 240px;
+  height: 80px;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+
+}
+
+.venus .shower div {
+  width: 120px;
+  height: 20px;
+  border-bottom: 1px solid var(--huff1);
+  float: left;
+  text-align: left;
+  font-size: 13px;
+  box-shadow: 0px 2px 3px white, inset 0px -1px 2px gainsboro;
+
+}
+
+.venus .shower div pi {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+
+}
+
+.venus .side {
+  width: 340px;
+  height: 55px;
+  border: 1px solid white;
+  margin-top: 17px;
+  background: #E0E0E0;
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 1px #BDBDBD;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-align: justify;
+  overflow: auto;
+}
+
+.venus .side pi {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.venus .side div {
+  text-align: right;
+  color: white;
+  background: #616161;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0px 3px;
+ 
+}
+
+.venus .side w {
+  letter-spacing: 2px;
+  text-decoration: underline var(--huff1);
+}
+
+.venus .dimple {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--huff1);
+  text-transform: uppercase;
+}
